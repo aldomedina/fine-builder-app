@@ -1,0 +1,103 @@
+@import "../../styles/mixins.scss";
+
+.icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: currentColor;
+  mask-repeat: no-repeat;
+  mask-size: contain;
+  mask-position: center;
+}
+
+.xxl {
+  height: 3rem;
+  width: 3rem;
+}
+.xl {
+  height: 2rem;
+  width: 2rem;
+}
+
+.lg {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.md {
+  height: 1rem;
+  width: 1rem;
+}
+
+.sm {
+  height: 0.8rem;
+  width: 0.8rem;
+}
+
+.close {
+  mask-image: url(../../assets/icons/close.svg);
+}
+
+.chevron-down {
+  mask-image: url(../../assets/icons/chevron-down.svg);
+}
+.chevron-up {
+  mask-image: url(../../assets/icons/chevron-up.svg);
+}
+.chevron-right {
+  mask-image: url(../../assets/icons/chevron-right.svg);
+}
+.chevron-left {
+  mask-image: url(../../assets/icons/chevron-left.svg);
+}
+.twitter {
+  mask-image: url(../../assets/icons/twitter.svg);
+}
+.discord {
+  mask-image: url(../../assets/icons/discord.svg);
+}
+.download {
+  mask-image: url(../../assets/icons/download.svg);
+}
+.opensea {
+  mask-image: url(../../assets/icons/opensea.svg);
+}
+.light {
+  mask-image: url(../../assets/icons/light.svg);
+}
+.dark {
+  mask-image: url(../../assets/icons/dark.svg);
+}
+.save {
+  mask-image: url(../../assets/icons/save.svg);
+}
+.arrow-diag-tr {
+  mask-image: url(../../assets/icons/arrow-diag-tr.svg);
+}
+.arrow-right {
+  mask-image: url(../../assets/icons/arrow-right.svg);
+}
+.arrow-left {
+  mask-image: url(../../assets/icons/arrow-left.svg);
+}
+
+.bin {
+  mask-image: url(../../assets/icons/bin.svg);
+}
+.send {
+  mask-image: url(../../assets/icons/send.svg);
+}
+
+.edit {
+  mask-image: url(../../assets/icons/edit.svg);
+}
+.high-res {
+  mask-image: url(../../assets/icons/high-res.svg);
+}
+.low-res {
+  mask-image: url(../../assets/icons/low-res.svg);
+}
+.check-mark {
+  mask-image: url(../../assets/icons/check-mark.svg);
+}

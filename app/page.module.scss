@@ -1,0 +1,19 @@
+@import "../styles/mixins.scss";
+
+.main {
+  height: 100%;
+  position: relative;
+  .canvas {
+    height: 100%;
+    width: 100%;
+    // border: 1px solid;
+    // border-radius: 1rem;
+    overflow: hidden;
+  }
+
+  .panels {
+    position: absolute;
+    top: 48px;
+    left: 2rem;
+  }
+}
