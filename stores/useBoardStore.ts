@@ -16,6 +16,8 @@ const useBoardStore = create<BoardState>()((set, get) => ({
   setBevel: (bevel) => set(() => ({ bevel })),
   resolution: initialBoard.resolution,
   setResolution: (resolution) => set(() => ({ resolution })),
+  thickness: initialBoard.thickness,
+  setThickness: (thickness) => set(() => ({ thickness })),
 }));
 
 export default useBoardStore;
