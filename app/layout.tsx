@@ -1,4 +1,3 @@
-import Nav from "@/components/Nav";
 import "./globals.css";
 import type { Metadata } from "next";
 
