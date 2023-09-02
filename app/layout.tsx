@@ -1,11 +1,6 @@
+import { proto } from "@/styles/fonts";
 import "./globals.css";
 import type { Metadata } from "next";
-
-import localFont from "next/font/local";
-
-export const proto = localFont({
-  src: "../assets/fonts/proto-mono-regular.woff2",
-});
 
 export const metadata: Metadata = {
   title: "Create Next App",
