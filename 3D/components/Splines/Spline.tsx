@@ -8,7 +8,6 @@ import { Mesh, Vector3 } from "three";
 interface CircleProps extends MeshProps {
   opacity: number;
   radius: number;
-
   color: string;
 }
 
@@ -69,6 +68,7 @@ const Spline = forwardRef<Mesh, SplineProps>(({ position, id }, ref) => {
   );
 
   return (
+    // @ts-ignore
     <Circle
       ref={ref}
       {...bind()}
@@ -77,6 +77,7 @@ const Spline = forwardRef<Mesh, SplineProps>(({ position, id }, ref) => {
       color={"black"}
       position={[pos.x, pos.y, 1]}
     >
+      {/* @ts-ignore */}
       <Circle
         radius={0.25}
         position={[0, 0, 0.1]}
